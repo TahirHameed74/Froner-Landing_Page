@@ -286,31 +286,6 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 3171:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Z: () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2947);
-
-
-const AnimatedQuote = ({ quote })=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: "w-[75%] h-[30vh]  flex items-center justify-center lg:h-[75vh] mx-auto",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-            className: "text-center text-4xl md:text-6xl lg:text-9xl ",
-            children: quote
-        })
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AnimatedQuote);
-
-
-/***/ }),
-
 /***/ 1693:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -441,7 +416,7 @@ const page = ()=>{
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,136,118,320,853,321,175,132,995,998], () => (__webpack_exec__(7414)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,136,118,320,853,321,175,132,995,129], () => (__webpack_exec__(7414)));
 module.exports = __webpack_exports__;
 
 })();
