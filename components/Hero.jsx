@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
-import Brand from "./Brand";
-import Link from "next/link";
-import NavbarBanner from "./NavbarBanner";
+import NavbarBanner from "./NavBarBanner";
 const Hero = () => {
 	const [isOpen, setIsOpen] = useState(false);
 	return (

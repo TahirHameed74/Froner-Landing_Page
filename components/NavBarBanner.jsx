@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import ShineOnHover from "./ShineOnHover";
 
 const NavbarBanner = ({ setIsOpen }) => {
 	const [logoHover, setLogoHover] = useState(false);
