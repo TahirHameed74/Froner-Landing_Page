@@ -186,18 +186,19 @@ const MainPage = () => {
 							</p>
 							<div className="border-[1px] w-full border-[#4a4036]" />
 						</div>
-
-						<button
-							type="button"
-							onClick={() => router.push("https://www.ideadentistry.com/")}
-							className=" mt-3 flex items-center text-white bg-gradient-to-br from-[#c7e0dd] to-[#7dcfd7] border-[0.5px]  border-[#a8cdd1] hover:bg-gradient-to-bl  focus:outline-none   font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
-							<p className="ml-2 bg-transparent">visit now</p>
-							<img
-								src="play_icon.png"
-								className="w-4 ml-2 h-3 bg-transparent"
-								alt="Right Arrow"
-							/>
-						</button>
+						<div className="mx-auto w-36">
+							<button
+								type="button"
+								onClick={() => router.push("https://www.ideadentistry.com/")}
+								className=" mt-3  flex items-center text-white bg-gradient-to-br from-[#c7e0dd] to-white  hover:bg-gradient-to-bl  focus:outline-none   font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
+								<p className="ml-2 bg-transparent text-[#4a4036]">visit now</p>
+								<img
+									src="icons8-play-60.png"
+									className="w-4 ml-2 h-3 bg-transparent"
+									alt="Right Arrow"
+								/>
+							</button>
+						</div>
 					</div>
 					<div className="w-1/2 h-4/5  ml-4  items-center  border-2 border-[#4a4036] p-2 rounded-xl">
 						<div className="flex flex-col">
@@ -222,17 +223,19 @@ const MainPage = () => {
 							</p>
 							<div className="border-[1px] w-full  border-[#4a4036]" />
 						</div>
-						<button
-							type="button"
-							onClick={() => router.push("https://www.lifeworksdental.com/")}
-							className=" mt-3 flex items-center text-white bg-gradient-to-br from-[#c7e0dd] to-[#7dcfd7] border-[0.5px]  border-[#a8cdd1] hover:bg-gradient-to-bl  focus:outline-none   font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
-							<p className="ml-2 bg-transparent">visit now</p>
-							<img
-								src="play_icon.png"
-								className="w-4 ml-2 h-3 bg-transparent"
-								alt="Right Arrow"
-							/>
-						</button>
+						<div className="mx-auto w-36">
+							<button
+								type="button"
+								onClick={() => router.push("https://www.lifeworksdental.com/")}
+								className=" mt-3  flex items-center text-white bg-gradient-to-br from-[#c7e0dd] to-white  hover:bg-gradient-to-bl  focus:outline-none   font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2">
+								<p className="ml-2 text-[#4a4036] bg-transparent">visit now</p>
+								<img
+									src="icons8-play-60.png"
+									className="w-4 ml-2 h-3 bg-transparent"
+									alt="Right Arrow"
+								/>
+							</button>
+						</div>
 					</div>
 				</div>
 				<div className="mt-10 mb-10">
