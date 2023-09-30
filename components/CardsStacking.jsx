@@ -46,7 +46,7 @@ const CardsStacking = () => {
 				className="w-[90vw] h-full lg:sticky top-0">
 				<div className="flex gap-5 items-center">
 					<h1 className="xl:text-[90.84px] heading-1 lg:text-[68px] md:text-[56px] pb-[6px] pt-14 md:pt-16 md:pb-3 text-[30px] bg-transparent">
-						Plans
+						PRICING PLANS
 					</h1>
 					<div className="flex flex-col items-center bg-transparent justify-between">
 						<span className="font-[lightItalic] md:text-[30px] text-[20px] lg:text-[35px] bg-transparent ">
@@ -67,7 +67,7 @@ const CardsStacking = () => {
 					<source type="video/mp4" src="plans.mp4" />
 				</video>
 			</Link>
-			<Link
+			{/* <Link
 				href="/our-work/reduce-front-desk-workload"
 				className="w-[90vw] h-full lg:sticky top-0">
 				<div className="flex gap-5 items-center">
@@ -92,7 +92,7 @@ const CardsStacking = () => {
 					playsInline>
 					<source type="video/mp4" src="premium-plans.mp4" />
 				</video>
-			</Link>
+			</Link> */}
 			<Link
 				id="denchat"
 				href="/our-work/increase-patient-traffic"
@@ -103,7 +103,7 @@ const CardsStacking = () => {
 					</h1>
 					<div className="flex flex-col items-center bg-transparent justify-between">
 						<span className="font-[lightItalic] md:text-[30px] text-[20px] lg:text-[35px] bg-transparent ">
-							3
+							2
 						</span>
 						<img
 							src="/arrow.svg"
@@ -130,7 +130,7 @@ const CardsStacking = () => {
 					</h1>
 					<div className="flex flex-col items-center bg-transparent justify-between">
 						<span className="font-[lightItalic] md:text-[30px] text-[20px] lg:text-[35px] bg-transparent ">
-							4
+							3
 						</span>
 						<img
 							src="/arrow.svg"
@@ -157,7 +157,7 @@ const CardsStacking = () => {
 					</h1>
 					<div className="flex flex-col items-center bg-transparent justify-between">
 						<span className="font-[lightItalic] md:text-[30px] text-[20px] lg:text-[35px] bg-transparent ">
-							5
+							4
 						</span>
 						<img
 							src="/arrow.svg"

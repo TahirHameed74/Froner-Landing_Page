@@ -8,8 +8,9 @@ const Hero = () => {
 			<NavbarBanner setIsOpen={setIsOpen} />
 			<div className="w-full video-wrapper relative   h-full">
 				{/* <Brand/> */}
+				{/* <p className=" bg-transparent banner-navigation  sm:items-center z-[999] text-black  font-[surtRegular] absolute top-1/2 left-1/3	 md:text-[25px] text-[20px]  uppercase lg:text-[30px]"> */}
 
-				<p className=" bg-transparent banner-navigation  sm:items-center z-[999] text-black  font-[surtRegular] absolute top-1/2 left-1/3	 md:text-[25px] text-[20px]  uppercase lg:text-[30px]">
+				<p class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-transparent font-[surtRegular] text-white uppercase  md:text-xl lg:text-3xl">
 					The Ultimate AI Chatbot for Dentists
 				</p>
 				<video
