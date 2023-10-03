@@ -155,14 +155,14 @@ const MainPage = () => {
 			<Projects />
 			<div id="sign-up">
 				{/* <div className="pb-20 mb-20"></div> */}
-				<h1 className="flex px-auto justify-center  forner-heading-3 font-[clashDisplay] md:text-[20px] text-center  w-full opacity-0 text-[#4a4036]  lg:text-5xl  text-5xl">
+				{/* <h1 className="flex px-auto justify-center  forner-heading-3 font-[clashDisplay] md:text-[20px] text-center  w-full opacity-0 text-[#4a4036]  lg:text-5xl  text-5xl">
 					See Kriss at work:
 				</h1>
 				<h1 className="flex px-auto justify-center mt-4  forner-heading-3 font-[clashDisplay] md:text-[20px] text-center  w-full opacity-0 text-[#4a4036]  lg:text-5xl  text-5xl">
 					Click a Case Study and chat with Kriss.ai now
-				</h1>
+				</h1> */}
 
-				<div className="flex  h-3/5 w-1/2  mx-auto items-center my-20 ">
+				{/* <div className="flex  h-3/5 w-1/2  mx-auto items-center my-20 ">
 					<div className="w-1/2 h-4/5  items-center border-2 border-[#4a4036] p-2 rounded-xl">
 						<div className="flex flex-col">
 							<div className="w-full">
@@ -237,8 +237,8 @@ const MainPage = () => {
 							</button>
 						</div>
 					</div>
-				</div>
-				<div className="mt-10 mb-10">
+				</div> */}
+				{/* <div className="mt-10 mb-10">
 					<div className="video-container">
 						<video
 							className="video-element mx-auto"
@@ -249,8 +249,183 @@ const MainPage = () => {
 							<source type="video/mp4" src="chat.mp4" />
 						</video>
 					</div>
+				</div> */}
+
+				{/* <section class="text-neutral-700 dark:text-neutral-300 my-20 w-3/4 mx-auto bg-transparent">
+					<div class="mx-auto text-center md:max-w-xl lg:max-w-3xl">
+						<h3 class="mb-6 text-3xl font-bold">Testimonials</h3>
+						<p class="mb-6 pb-2 md:mb-12 md:pb-0">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit,
+							error amet numquam iure provident voluptate esse quasi, veritatis
+							totam voluptas nostrum quisquam eum porro a pariatur veniam.
+						</p>
+					</div>
+
+					<div class="grid gap-6 text-center md:grid-cols-3 ">
+						<div>
+							<div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
+								<div class="h-28 overflow-hidden rounded-t-lg bg-[#9d789b]"></div>
+								<div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+									<img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp" />
+								</div>
+								<div class="p-6">
+									<h4 class="mb-4 text-2xl font-semibold">Maria Smantha</h4>
+									<hr />
+									<p class="mt-4">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											class="inline-block h-7 w-7 pr-2"
+											viewBox="0 0 24 24">
+											<path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+										</svg>
+										Lorem ipsum dolor sit amet eos adipisci, consectetur
+										adipisicing elit.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
+								<div class="h-28 overflow-hidden rounded-t-lg bg-[#7a81a8]"></div>
+								<div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+									<img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp" />
+								</div>
+								<div class="p-6">
+									<h4 class="mb-4 text-2xl font-semibold">Lisa Cudrow</h4>
+									<hr />
+									<p class="mt-4">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											class="inline-block h-7 w-7 pr-2"
+											viewBox="0 0 24 24">
+											<path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+										</svg>
+										Neque cupiditate assumenda in maiores repudi mollitia
+										architecto.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div>
+							<div class="block rounded-lg bg-white shadow-lg dark:bg-neutral-700 dark:shadow-black/30">
+								<div class="h-28 overflow-hidden rounded-t-lg bg-[#6d5b98]"></div>
+								<div class="mx-auto -mt-12 w-24 overflow-hidden rounded-full border-2 border-white bg-white dark:border-neutral-800 dark:bg-neutral-800">
+									<img src="https://tecdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp" />
+								</div>
+								<div class="p-6">
+									<h4 class="mb-4 text-2xl font-semibold">John Smith</h4>
+									<hr />
+									<p class="mt-4">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											class="inline-block h-7 w-7 pr-2"
+											viewBox="0 0 24 24">
+											<path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+										</svg>
+										Delectus impedit saepe officiis ab aliquam repellat rem unde
+										ducimus.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> */}
+
+				<div className="gradient-bg ">
+					<section className="text-[#4a4036] mt-20 w-3/4 mx-auto bg-transparent ">
+						<div className="mx-auto text-center md:max-w-xl lg:max-w-3xl  bg-transparent mb-32 ">
+							<p className="flex  justify-center bg-transparent   font-[clashDisplay] text-[60px] text-center  w-full  text-[#4a4036]  ">
+								See Kriss at work:
+							</p>
+							<p className="flex  justify-center bg-transparent font-[clashDisplay] text-[35px] text-center  w-full  text-[#4a4036]  ">
+								Click a Case Study and chat with Kriss.ai now
+							</p>
+						</div>
+
+						<div className="grid gap-6 text-center md:grid-cols-2 bg-transparent pb-10  ">
+							<div className="bg-transparent mx-auto w-96 h-full  shadow-[#d0e5e4] ">
+								<div className="border-[1px]  py-5  border-[#d0e5e4] rounded-lg h-full bg-[#d0e5e4]  font-[clashDisplay]">
+									<div className="rounded-lg w-[90%] mx-auto">
+										<p className="mt-4 ">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor"
+												className="inline-block h-7 w-7 pr-2"
+												viewBox="0 0 24 24">
+												<path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+											</svg>
+											As a busy dentist, patient engagement is crucial yet
+											time-consuming. With the help of the AI chatbot, we've
+											streamlined appointment scheduling, dental inquiries, and
+											follow-up care. This technology has incredibly reduced our
+											administrative workload, allowing us to focus more on
+											providing top-notch oral care to our patients. It's like
+											having an extra pair of hands that works 24/7!
+										</p>
+									</div>
+
+									<div className="p-6">
+										<h4 className=" text-2xl font-semibold">Dr. Vu</h4>
+									</div>
+									<div className="p-2">
+										<h4 className=" text-xl font-semibold">
+											A general dentist in Houston, TX
+										</h4>
+									</div>
+
+									<div className="mx-auto w-32 overflow-hidden ">
+										<img src="Idea-Dentistry-houston-tx-dentist.png" />
+									</div>
+								</div>
+							</div>
+
+							<div className="bg-transparent w-96  mx-auto h-full  shadow-[#d0e5e4] ">
+								<div className="border-[1px] py-5  border-[#d0e5e4] rounded-lg h-full bg-[#d0e5e4]  font-[clashDisplay]">
+									<div className="rounded-lg w-[90%] mx-auto">
+										<p className="mt-4 ">
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor"
+												className="inline-block h-7 w-7 pr-2"
+												viewBox="0 0 24 24">
+												<path d="M13 14.725c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275zm-13 0c0-5.141 3.892-10.519 10-11.725l.984 2.126c-2.215.835-4.163 3.742-4.38 5.746 2.491.392 4.396 2.547 4.396 5.149 0 3.182-2.584 4.979-5.199 4.979-3.015 0-5.801-2.305-5.801-6.275z" />
+											</svg>
+											Integrating an AI chatbot into our dental practice has
+											dramatically enhanced our patient service. It instantly
+											addresses patient questions, offering them convenient and
+											comprehensive responses. Our patients are happier with the
+											quick, round-the-clock assistance, and our staff is
+											relieved from the constant ringing of phones. It's a
+											win-win solution for us!
+										</p>
+									</div>
+
+									<div className="p-6">
+										<h4 className=" text-2xl font-semibold">
+											Drs. Tran & Nguyen
+										</h4>
+									</div>
+									<div className="p-2">
+										<h4 className=" text-xl font-semibold">
+											A cosmetic Dentist located in Memorial City, TX
+										</h4>
+									</div>
+
+									<div className="mx-auto w-40 overflow-hidden ">
+										<img src="Life-works-dental-removebg-preview.png" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 			</div>
+
 			<Footer src="/footer_pic.jpg" main={true} />
 			<FullScreenMenu setIsOpen={setIsOpen} isOpen={isOpen} />
 		</div>

@@ -19,11 +19,7 @@ const NextProjectsVideo = ({ src1, src2, text1, text2, link1, link2 }) => {
 								loop
 								muted
 								playsInline>
-								<source
-									data-v-fb727ca2=""
-									src="/kriss-video-1.mp4"
-									type="video/mp4"
-								/>
+								<source data-v-fb727ca2="" src={src1} type="video/mp4" />
 							</video>
 							{/* <img
 								className="w-full transition-all h-full ease duration-500  hover:scale-[1.2] object-cover  "
@@ -33,8 +29,7 @@ const NextProjectsVideo = ({ src1, src2, text1, text2, link1, link2 }) => {
 					</div>
 
 					<Link href={link1} className="flex gap-3 w-fit items-start">
-						<p className="text-3xl">Previous</p>
-						<h2 className="text-4xl">{text1}</h2>
+						<p className="text-4xl text-primary1 font-[cashDisplay]">{text1}</p>
 					</Link>
 				</div>
 				<div className="flex-[1]    md:flex flex-col items-end  ">
@@ -48,17 +43,12 @@ const NextProjectsVideo = ({ src1, src2, text1, text2, link1, link2 }) => {
 								muted
 								className="transition-all hover:scale-[1.2]  ease duration-500  w-full h-full object-cover  "
 								playsInline>
-								<source
-									data-v-fb727ca2=""
-									src="/kriss-video-2.mp4"
-									type="video/mp4"
-								/>
+								<source data-v-fb727ca2="" src={src2} type="video/mp4" />
 							</video>
 						</Link>
 					</div>
 					<Link href={link2} className="flex gap-3 items-start ">
-						<p className="text-3xl">Next</p>
-						<h2 className="text-4xl">{text2}</h2>
+						<p className="text-4xl text-primary1 font-[cashDisplay]">{text2}</p>
 					</Link>
 				</div>
 			</div>

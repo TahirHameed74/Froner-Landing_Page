@@ -35,7 +35,7 @@ const Contact = ({ animation, about }) => {
 		<div
 			className={`${
 				animation ? "container lg:bottom-[600px]" : ""
-			} absolute h-[400px]  p-10 md:h-[700px] w-[350px] md:w-[500px] lg:w-[800px] text-center z-[1]  lg:h-[900px] flex flex-col justify-between items-center  bg-[#cdeceb]`}>
+			} absolute h-[400px]  p-10 md:h-[450px] w-[350px] md:w-[450px] lg:w-[750px] text-center z-[1]  lg:h-[750px] flex flex-col justify-between items-center  bg-[#cdeceb]`}>
 			{!about ? (
 				<h1 className="lg:text-[33.28px] md:text-[20px] forner-heading-1 text-[#4a4036] font-[clashDisplay] bg-transparent  w-full lg:w-[670px] text-[10px] items-center flex justify-center">
 					Explore how Kriss.ai can revolutionize your dental clinic’s

@@ -1,0 +1,70 @@
+"use client";
+import React, { useEffect } from "react";
+import DenchatContact from "./DenchatContact";
+import { Power4, gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import FooterShine from "./FooterShine";
+// import { SplitText } from 'gsap/SplitText';
+
+gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(SplitText);
+
+const DenchatFooter = ({ main, mainAbout, src }) => {
+	const logo = "FORNER".split("");
+	useEffect(() => {
+		// gsap.from(".social1,.social2,.social3",{
+		//   stagger:0.1,
+		//   y:100,
+		//   delay:0.8,
+		//   opacity:0,
+		//     scrollTrigger:{
+		//         trigger:".socials",
+		//         markers:true,
+		//        start:"top-=150 bottom",
+		//        end:"bottom+=2000 bottom",
+		//     },
+		// })
+		// const split=new SplitText(".heading",{type:"chars"})
+		// let chars=split.chars
+		// gsap.from(chars,{
+		//   yPercent:130,
+		//   stagger:0.09,
+		//   duration:1,
+		//   ease:"back.out",
+		//   scrollTrigger:{
+		//     trigger:".heading"
+		//   }
+		// },
+		// )
+	}, []);
+
+	return (
+		<div className="relative">
+			<div className="flex items-center justify-center">
+				{<DenchatContact animation={true} />}
+			</div>
+			<div className="lg:h-[1800px]  z-[-1]  overflow-hidden h-screen w-full">
+				{/* <img
+					className=" image_studio z-[-1] h-full w-full object-cover"
+					src={src}
+				/> */}
+				<video
+					className="image_studio z-[-1] h-full w-full object-cover    overflow-hidden flex justify-center ic lg:block"
+					autoPlay
+					loop
+					muted
+					playsInline>
+					<source type="video/mp4" src="/pink_tooth.mp4" />
+				</video>
+			</div>
+			<div className="flex md:p-16 p-4 h-[800px] bg-transparent flex-col justify-between ">
+				<img
+					className="bg-transparent text-white "
+					src="/Logo-Kriss-white.png"
+				/>
+			</div>
+		</div>
+	);
+};
+
+export default DenchatFooter;

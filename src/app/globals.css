@@ -420,3 +420,13 @@ html::-webkit-scrollbar {
 	height: 800px; /* Adjust the height as needed */
 	width: auto; /* Let the width adjust to maintain aspect ratio */
 }
+
+.gradient-bg {
+	background: linear-gradient(
+		to top,
+
+		#7ed2da,
+		#cdaaca,
+		#d0e5e4
+	); /* Replace #333 and #fff with your desired colors */
+}
