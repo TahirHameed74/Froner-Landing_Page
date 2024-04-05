@@ -1,4 +1,4 @@
-# Welcome to Froner-Landing_Page!
+<img width="1707" alt="Screenshot 2024-04-05 at 6 58 35 AM" src="https://github.com/TahirHameed74/Froner-Landing_Page/assets/33459018/7b919b48-8640-444d-984a-94104e5b903f"># Welcome to Froner-Landing_Page!
 
 This is a Next.js project bootstrapped with `create-next-app`, a powerful tool for building React applications with server-side rendering and other advanced features.
 
@@ -32,7 +32,9 @@ Refer to our [Next.js deployment documentation](https://nextjs.org/docs/deployme
 ## Gallery
 
 [//]: # (Insert images of your site here.)
+<img width="1695" alt="Screenshot 2024-04-05 at 6 58 13 AM" src="https://github.com/TahirHameed74/Froner-Landing_Page/assets/33459018/84cf1904-6524-4c49-a479-b3d5cf95e6c3">
+<img width="1707" alt="Screenshot 2024-04-05 at 6 58 35 AM" src="https://github.com/TahirHameed74/Froner-Landing_Page/assets/33459018/1ea775fb-47e5-4316-89fc-7902e74f31d9">
+<img width="1725" alt="Screenshot 2024-04-05 at 6 58 06 AM" src="https://github.com/TahirHameed74/Froner-Landing_Page/assets/33459018/0b3f3d7e-59eb-4532-9ebb-c5d61a58828a">
 
----
 
 Feel free to customize this landing page to suit your project's needs. Happy coding!
