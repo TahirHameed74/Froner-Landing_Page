@@ -1,3 +1,14 @@
+<div align="center">
+  <div>
+    <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next.js&logoColor=white&color=000000" alt="Next.js" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
+
+  <h3 align="center">A 3D Developer Portfolio</h3>
+
+</div>
+
+
 <img width="1707" alt="Screenshot 2024-04-05 at 6 58 35 AM" src="https://github.com/TahirHameed74/Froner-Landing_Page/assets/33459018/7b919b48-8640-444d-984a-94104e5b903f"># Welcome to Froner-Landing_Page!
 
 This is a Next.js project bootstrapped with `create-next-app`, a powerful tool for building React applications with server-side rendering and other advanced features.
